@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    srand(time(NULL));
+    const int rows = 5;
+    const int cols = 10;
+    int array[rows][cols];
+    
+    for(int i = 0; i < rows; i++){
+        for(int j = 0; j < cols; j++){
+            array[i][j] = rand() % 5 + 1;
+            cout << array[i][j] << " ";
+        }
+    cout << endl;
+    }
+    cout << endl;
+    cout << array[2][6];
+}
