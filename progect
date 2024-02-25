@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, I = 1;
+    cout << "n =";
+    cin >> n;
+    do
+    cout << I++ << "\t";
+    while ( I <=n);
+    return 0;
+}
