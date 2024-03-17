@@ -1,0 +1,19 @@
+Code 2
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int i = 25;
+int k = 23;
+int j = 129;
+int ik = 11;
+int kk = 33;
+int jk = 455;
+for (i = 1; i < ik; i++) {
+for (j = 10; j > jk; j++) {
+for(k = 1; k<kk; j+= 2) {}
+}
+cout « i « k;
+}
+}
