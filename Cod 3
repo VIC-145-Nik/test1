@@ -1,0 +1,15 @@
+Code 3
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int a, b;
+cout « "Введите а или в";
+cin » a;
+cin » b;
+int i = a;
+while (a <= b)
+cout « i * i + 1 « "\t";
+return 0;
+}
